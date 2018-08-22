@@ -1,0 +1,81 @@
+html {
+  background-image: url("WebsiteBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(0, 0, 128);
+  font-size: 20px;
+}
+
+body {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.8);
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.EBcontent {
+  padding: 10px;
+  text-align: center;
+}
+
+#mainContent {
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  background-color: rgba(240, 248, 255, 0.8);
+  text-align: center;
+}
+
+.MyPicture {
+  width: 40%;
+  transform: rotate(90deg);
+  padding: 5%;
+}
+
+.boulderingImage {
+  width: 50%;
+}
+
+.worldMap {
+  width: 60%;
+}
+
+.EBcontent div {
+  width: 75%;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  border-bottom: 1px solid;
+}
+
+.EBcontent h2 {
+  text-decoration: underline;
+}
+
+
+
+
+/* nav {
+  background-color: rgba(112, 128, 144, 0.5);
+  text-align: center;
+  height: 40px;
+  display: block;
+  align-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 2px;
+  color: rgb(0, 0, 128);
+}
+
+nav a:hover {
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.5);
+} */

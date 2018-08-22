@@ -1,33 +1,38 @@
 #links ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	display: inline;
 }
 
+#links{
+  height: 40px;
+  background-color:lightgray;
+}
 #links li {
-  float: left;
-  border-right: 1px solid #bbb;
+	float: left;
+	border-right:1px solid #bbb;
 }
 
 li:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 #links li a {
-  font-size: medium;
-  display: inline;
-  color: white;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
+	font-size: medium;
+    display: inline;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+	background-color: #111;
 }
+
 
 #link {
   position: absolute;
@@ -35,75 +40,27 @@ li a:hover {
   bottom: 50%;
   list-style-type: none;
 }
-
 #link ul {
-  list-style-type: none;
+    list-style-type: none;
 }
-
 #link li {
-  float: left;
-  border-right: 1px solid #bbb;
+	float: left;
+	border-right:1px solid #bbb;
 }
 
 li:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 #link li a {
-  font-size: 64px;
-  display: inline;
-  color: black;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
+	font-size: 64px;
+    display: inline;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: grey;
+	background-color: grey;
 }
-
-.phillip {
-  background-color: grey;
-}
-
-.ph1 {
-  font-size: 54px;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px black;
-}
-.pp {
-  font-size: medium;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 2px black;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.img { margin: 2.5px;
-width: 240px;
-height:250px;}
-
-.flex {
-    display: flex;
-    padding: 0 4px;
-}
-
-.textBelow {
-    flex: 16.66%;
-    max-width: 16.66%;
-    padding: 0 4px;
-    color: white;
-    text-shadow: 1px 2px black;
-}
-.textBelow img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-
-delete me
