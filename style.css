@@ -114,6 +114,7 @@ li a:hover {
   margin-top: 5px;
   text-align: center;
   color: black;
+  text-decoration: underline;
 }
 
 .pp {
