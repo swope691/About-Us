@@ -141,7 +141,7 @@ li a:hover {
 }
 
 .textBelow {
-  flex: 16.66%;
+  flex: 16%;
   max-width: 16.66%;
   padding: 0 4px;
   color: black;
@@ -196,4 +196,23 @@ input[type=text], input[type=password] {
 
 label {
     font: normal 22px times !important;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
