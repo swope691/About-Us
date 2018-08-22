@@ -11,9 +11,7 @@
   margin: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: auto;
   width: 100%;
-  height: 35px;
   z-index: 9;
   display:inline-block;
   text-align:center
@@ -21,6 +19,7 @@
 
 #links-inner {
     background:transparent;
+    background-color: rgba(0,0,0,0.0);
 }
 
 #links li {
@@ -153,4 +152,48 @@ li a:hover {
   vertical-align: middle;
 }
 
-\
+.homepage {
+  background-image: url("html.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(0, 0, 128);
+  font-size: 20px;
+  font-family: times, Helvetica, sans-serif;
+    font-weight:normal;
+
+}
+
+.container {
+  position: absolute;
+  right: 0;
+
+  max-width: 300px;
+  padding: 16px;
+  color: black;
+  font-weight:normal;
+}
+
+input[type=text], input[type=password] {
+  font-family: times, Helvetica, sans-serif;
+}
+.btn {
+  background:transparent;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  padding-bottom: 5%;
+  font-size: 22px;
+  width: 10%;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color:green;
+}
+
+label {
+    font: normal 22px times !important;
+}
